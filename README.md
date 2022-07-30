@@ -5,7 +5,7 @@
 
 				 +++- DAFW-CLIENT-PROVIDER	服务提供
 				 +
-DAMSA 服务管理 - +
+DAMSA-SERVICE 服务管理 - +
 				 +
 				 +++- DAFW-CLIENT-CONSUMMER	服务消费
 				 

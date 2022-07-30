@@ -23,5 +23,8 @@
 hs_err_pid*
 
 # folder 
-
+.idea
+DAMSA.iml
+target
+src/test
 
