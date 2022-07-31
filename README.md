@@ -3,26 +3,18 @@
 
 项目结构：
 
-<<<<<<< HEAD
 				 +++- DAFW-CLIENT-PROVIDER	服务提供
 				 +
-DAMSA-SERVICE 服务管理 - +
+DAMSA-SERVICE 服务管理
 				 +
 				 +++- DAFW-CLIENT-CONSUMMER	服务消费
-=======
-		+++- DAFW-CLIENT-PROVIDER	服务提供
-		+
-DAMSA 服务管理 - +
-		+
-		 +++- DAFW-CLIENT-CONSUMMER	服务消费
->>>>>>> 43aee59d2d2522fffdf220bcd68a0e0e352d6b10
 				 
 
 端口 
 
-服务管理	7667
+服务管理	8008
 
-服务提供	8888
+服务提供	8200
 
-服务消费	8899
+服务消费	8300
 
