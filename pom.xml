@@ -8,7 +8,7 @@
     <artifactId>DAMSA-SERVICE</artifactId>
     <version>1.0.1-SNAPSHOT</version>
     <name>DAMSA</name>
-    <description>项目管理服务器</description>
+    <description>项目管理器</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
