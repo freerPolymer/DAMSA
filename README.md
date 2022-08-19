@@ -3,17 +3,5 @@
 
 # 项目结构：
 
-## DAMSA-SERVICE 服务管理
 
-## DAFW-CLIENT-PROVIDER	服务提供
-
-## DAFW-CLIENT-CONSUMMER 服务消费
-
-## 端口
-
-服务管理	8008
-
-服务提供	8200
-
-服务消费	8300
 
