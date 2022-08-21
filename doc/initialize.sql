@@ -65,7 +65,8 @@ create table if not exists sys_permissions(
 )comment '用户权限管理表';
 
 /*系统基础数据初始化*/
+-- 默认用户名密码(MD5数据加密)：admin adsh3009
 insert into sys_user
 values(
-	'h5fd5f5f45s5f5s4f4sf44i2h3a7fx8p','admin','hdjjdjdh-dfffsf3t-89klkfld00ol',1,now()
+	'h5fd5f5f45s5f5s4f4sf44i2h3a7fx8p','admin','gq+L7TphPuXkv0QDhl7/rg==',1,now()
 );
