@@ -6,7 +6,7 @@ server :
 spring :
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3200/db_msa?useUnicode=true&characterEncoding=UTF-8&allowPublicKeyRetrieval=true&useSSL=false
+    url: jdbc:mysql://localhost:3200/db_msa?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&allowPublicKeyRetrieval=true&useSSL=false
     username: root
     password: KP5239+
     dbcp2:
@@ -16,6 +16,8 @@ spring :
       max-wait-millis: 3000L
 mybatis:
   type-aliases-package: com.polymer.db.mapper
+  configuration:
+    map-underscore-to-camel-case: true
 
 
 # Redis数据库索引（默认为0）

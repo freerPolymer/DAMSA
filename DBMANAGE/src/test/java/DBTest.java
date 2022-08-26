@@ -37,7 +37,6 @@ public class DBTest {
 
 		System.out.println(id);
 
-
 	}
 
 
@@ -45,10 +44,11 @@ public class DBTest {
 	RedisTemplate redisTemplate;
 
 	@Test
-	public void redis(){
+	public void redisTest(){
 		ValueOperations<String, SysUser> operations = redisTemplate.opsForValue();
 		operations.set("5225552d4f4s4f488e5f222a2",new SysUser("dkkfdke332kld","号","55f2d5e5e5-df4d4f4d4==",false,new Date()));
 
 		System.out.println(operations.get("5225552d4f4s4f488e5f222a2"));
 	}
+
 }
